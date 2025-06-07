@@ -102,8 +102,6 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²", densidade_populacional2);
     printf("Renda Per Capita: R$ %.2f\n", pib_per_capita2);
 
-    //testes de alteração//
-
     return 0;
 }
 
