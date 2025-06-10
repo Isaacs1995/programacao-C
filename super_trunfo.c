@@ -13,7 +13,7 @@ int main() {
 
     printf("Digite os dados da primeira carta:\n\n");
 
-    // Leitura dos dados
+    // Leitura dos dados da primeira carta
     printf("Digite o estado com uma letra (ex:A): ");
     scanf(" %c", &estado);
 
@@ -41,7 +41,7 @@ int main() {
 
     printf("\n\nAgora digite os dados da segunda carta:\n\n");
 
-    // Leitura dos dados
+    // Leitura dos dados da segunda carta
     printf("Digite o estado com uma letra (ex:A): ");
     scanf(" %c", &estado2);
 
@@ -67,7 +67,7 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    //calculos adicionais
+    //calculos adicionais e comparativos
 
     float densidade_populacional, densidade_populacional2;
     float rendaPerCapita, rendaPerCapita2;
@@ -112,17 +112,16 @@ int main() {
     printf("Renda Per Capita: R$ %.2f\n", rendaPerCapita2);
     printf("\nSuper Poder da Cidade: %.2f\n\n", superPoder2);
 
-    //comparação das cartas
+    //comparação das cartas (Lógica de decisão)
 
-    printf("\nPopulação: %d\n" , populacao > populacao2);
-    printf("Área: %d\n" , area > area2);
-    printf("PIB: %d\n" , pib > pib2);
-    printf("Pontos turísticos: %d\n" , pontosTuristicos > pontosTuristicos2);
-    printf("Densidade Populacional: %d\n" , densidade_populacional < densidade_populacional2);
-    printf("PIB per Capita: %d\n" , rendaPerCapita > rendaPerCapita2);
-    printf("Super Poder: %d\n\n" , superPoder > superPoder2);
+    printf("Comparação de cartas (Atributo: População)\n");
 
-
+    if (populacao > populacao2) {
+         printf("Carta 1 - %s: %lu\n", nomeCidade, populacao);
+    }    else{
+        printf("Carta 2 - %s: %lu\n", nomeCidade2, populacao2);
+    }
+    
     return 0;
 }
 
