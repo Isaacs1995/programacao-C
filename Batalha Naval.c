@@ -27,6 +27,13 @@ int main(){
     {
         matriz[j][5] = 3;
     }
+
+    // Posicionando o navio na diagonal
+
+    for (int i = 1; i < 4; i++)
+    {
+        matriz[i][i] = 3;
+    }
     
     // Exibindo o tabuleiro
     printf("Tabuleiro Batalha Naval:\n\n");
