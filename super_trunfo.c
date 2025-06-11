@@ -86,31 +86,6 @@ int main() {
     superPoder = populacao + area + pib + pontosTuristicos + rendaPerCapita + inversoDensidade;
     superPoder2 = populacao2 + area2 + pib2 + pontosTuristicos2 + rendaPerCapita2 + inversoDensidade2;
 
-    /* Impressão dos dados das cartas
-    printf("\nCarta 1:\n");
-    printf("Estado: %c\n", estado);
-    printf("Código: %s\n", codigo);
-    printf("Nome da Cidade: %s\n", nomeCidade);
-    printf("População: %d\n", populacao);
-    printf("Área: %.2f km²\n", area);
-    printf("PIB: %.2f bilhões de reais\n", pib);
-    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional);
-    printf("Renda Per Capita: R$ %.2f\n", rendaPerCapita);
-    printf("\nSuper Poder da Cidade: %.2f\n\n", superPoder);
-
-    printf("\nCarta 2:\n");
-    printf("Estado: %c\n", estado2);
-    printf("Código: %s\n", codigo2);
-    printf("Nome da Cidade: %s\n", nomeCidade2);
-    printf("População: %d\n", populacao2);
-    printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f bilhões de reais\n", pib2);
-    printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
-    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
-    printf("Renda Per Capita: R$ %.2f\n", rendaPerCapita2);
-    printf("\nSuper Poder da Cidade: %.2f\n\n", superPoder2);*/
-
     //comparação das cartas (Lógica de decisão + menu de seleção)
 
     int opcao1, opcao2;
