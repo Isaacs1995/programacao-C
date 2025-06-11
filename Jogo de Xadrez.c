@@ -33,5 +33,18 @@ for (rainha = 1; rainha <= 8; rainha++)
     printf("Esquerda \n");
 }
 
+    //CAVALO
+printf("\nMovimentação do cavalo em L, 2 casas para baixo e 1 casa à esquerda: \n");
+
+for (int i = 1; i < 2; i++)
+{
+    for (int j = 1; j <= 2; j++)
+    {
+        printf("Baixo \n");
+    }
+    
+    printf("Esquerda \n");
+}
+
     return 0;
 }
